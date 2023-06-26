@@ -12,15 +12,17 @@
         --modalBg: #FCFCFC;
 }
 body{
-        font-family: "Roboto", sans-serif; 
+        font-family: "Roboto" sans-serif; 
         color: #434455;
         background-color: #FFFFFF;
         color: var(--textColor);        
 }
-.link{
+.link {
        text-decoration: none;
+       font-family: "Roboto",sans-serif;
 }
-.list{
+.list {
+      
         list-style-type: none;
         background-color: #FFFFFF;
         color: var(--primaryBrand:#4D5AE5);
@@ -31,6 +33,7 @@ body{
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
+        font-family: "Roboto",sans-serif;
 }
 /* -------------HEADER--------------- */
   /* ---------logo-------- */
@@ -68,10 +71,11 @@ body{
 
 .style-adress {
 font-style: normal;
+
 }
 
 .adres{
-      
+        font-family: "Roboto",sans-serif;
         text-decoration: none;
         font-weight: 400;
         font-size: 16px;
@@ -187,6 +191,7 @@ font-style: normal;
         text-transform: capitalize;
         text-align: center;
         color: var(--mainColor);
+        font-family: "Roboto",sans-serif;
 }
 
 .bgcolorteam {
@@ -203,7 +208,10 @@ font-style: normal;
          line-height: 1.2;
          letter-spacing: 0.02em;
          color: #2E2F42;
+        
 }
+
+
 .appname {
         font-style: normal;
         font-weight: 400;
