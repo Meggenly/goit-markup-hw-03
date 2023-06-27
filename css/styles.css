@@ -52,6 +52,7 @@ ul{
         text-transform: uppercase; 
         padding-top: 24px;
         padding-bottom: 24px;
+        margin-right: 76px;
         }
  .logosecond-li {
         text-decoration: none;
@@ -64,6 +65,7 @@ ul{
         text-transform: uppercase;
         padding-top: 24px;
         padding-bottom: 24px;
+        margin-right: 76px;
  }
 .linkcurrent {
         font-size: 16px;
@@ -108,6 +110,7 @@ font-style: normal;
         letter-spacing: 0.02em;
         text-align: center;
         color: #FFFFFF;
+        margin-right: 76px;
 }
 
 .hero-buttton {
@@ -192,8 +195,9 @@ font-style: normal;
 
 .section-hero {
         background-color: #2E2F42 ;
-        padding-top: 180px;
-        padding-bottom: 180px;
+        padding-top: 188px;
+        padding-bottom: 188px;
+   
 }
 .section-title {
         font-size: 36px;
@@ -309,10 +313,12 @@ font-style: normal;
 .nav-menu {   
         display:flex ;
         gap: 40px;
+        lign-items: center;
 }
 .header-container {
         display:flex;
         gap: 40px;
+        border-bottom;1px solid #e7e9fc;
 }
 .li-menu-list {
         width:calc((100%-72px)/4);
@@ -321,15 +327,39 @@ font-style: normal;
         display: flex;
         gap: 24px;
 }
+
+
+
+
+
+
+
+
 .sect-three {
         padding-bottom: 120px;
+        margin-bottom: 72px;
 }
 .padding-for-all {
       padding-top: 120;  
       padding-bottom: 120px;
 }
 
-
+.order-button {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        border: 1px solid #e7e9fc;
+        border-radius: 4px;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border; none;
+}
+.order-button:hover,
+.order-button:focus {    
+         border: 1px solid transparent;
+}
 
 
 
