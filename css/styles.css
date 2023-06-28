@@ -247,6 +247,8 @@ font-style: normal;
 
 }
 
+/*----footer------*/
+
 .footer-text {  
         color: #F4F4FD;
         background: #2E2F42;
@@ -266,6 +268,8 @@ font-style: normal;
         display: inline-block; 
         margin-bottom: 16px;
 }
+
+
 .foot-web {
         color: #4D5AE5;
         text-transform: uppercase;
@@ -345,6 +349,8 @@ font-style: normal;
 .ul-menu {
         display: flex;
         gap: 24px;
+        justify-content: center;
+        margin-bottom: 72px;
 }
 
 .sect-three {
@@ -352,10 +358,13 @@ font-style: normal;
         margin-bottom: 72px;
 }
 .padding-for-all {
-      padding-top: 120;  
-      padding-bottom: 120px;
+       padding-top: 120;  
+       padding-bottom: 120px;
 }
-
+.section-pad-portf{
+        padding-top: 96px;
+        padding-bottom: 120px;
+}
 .order-button {
         padding-top: 12px;
         padding-bottom: 12px;
@@ -368,13 +377,15 @@ font-style: normal;
         height: 56px;
         border; none;
 }
+
 .order-button:hover,
 .order-button:focus {    
          border: 1px solid transparent;
 }
 
+
 .mmargin-bot-h2{   
-  margin-bottom: 8px;      
+        margin-bottom: 8px;      
 }
 
 .mmargin-bot-h4{
@@ -391,10 +402,26 @@ font-style: normal;
         display: block;
 }
 
+/*-----portfolio----*/
 
+.order-button2 {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        border: 1px solid #e7e9fc;
+        border-radius: 4px;
+}
 
+.order-button2:hover,
+.order-button2:focus {
+        border: 1px solid transparent;
+}
+.wrap-portf{
+flex-wrap: wrap;
+row-gap: 48px;
 
-
+}
 
 
    
