@@ -17,8 +17,19 @@ body{
         background-color: #FFFFFF;
         color: var(--textColor);        
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+p  {
+        margin:0;
+}
+
+
 ul{
         padding: 0;
+        margin: 0;
 }
 
 .link {
@@ -65,7 +76,6 @@ ul{
         text-transform: uppercase;
         padding-top: 24px;
         padding-bottom: 24px;
-        margin-right: 76px;
  }
 .linkcurrent {
         font-size: 16px;
@@ -82,7 +92,9 @@ ul{
 }
 
 .style-adress {
-font-style: normal;
+ margin-left: auto;       
+ font-style: normal;
+
 
 }
 
@@ -110,8 +122,10 @@ font-style: normal;
         letter-spacing: 0.02em;
         text-align: center;
         color: #FFFFFF;
-        margin-right: 76px;
         max-width: 496px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
 }
 
 .hero-buttton {
@@ -156,6 +170,8 @@ font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    padding-top: 24px ;
+    padding-bottom: 24px;
     letter-spacing: 0.02em;
     text-decoration: none;
   }
@@ -204,6 +220,7 @@ font-style: normal;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
+        margin-bottom: 72px;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
@@ -225,11 +242,21 @@ font-style: normal;
          line-height: 1.2;
          letter-spacing: 0.02em;
          color: #2E2F42;
-         text-align: center;
          margin-bottom: 8px;
         
 }
+.namecard-team {     
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        margin-bottom: 8px;
+        text-align: center;
 
+       
+}
 
 .appname {
         font-style: normal;
@@ -238,9 +265,20 @@ font-style: normal;
         line-height:1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        text-align: center;
+      
    }  
    
+  
+.appname-team {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height:1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        text-align: center;
+      
+   }
 .bg-each-team {
         background-color:#FFFFFF ;
 
@@ -306,6 +344,7 @@ font-style: normal;
         padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
+
 }
 
 .visually-hidden {
@@ -325,7 +364,8 @@ font-style: normal;
 .nav-menu {   
         display:flex ;
         gap: 40px;
-        align-items: center;
+        margin:0;
+      
 }
 .header-container {
         display:flex;
@@ -343,21 +383,27 @@ font-style: normal;
 
 
 .li-menu-list {
-        width: calc((100%-72px)/4);
+        width: calc((100% - 72px) / 4);
 }
+.width{
+        width: calc((100% - 48px) / 3);
+
+}
+
+
 .ul-menu {
         display: flex;
         gap: 24px;
-        justify-content: center;
-        margin-bottom: 72px;
+        margin: 0;
+     
 }
 
 .sect-three {
         padding-bottom: 120px;
-        margin-bottom: 72px;
+       
 }
 .padding-for-all {
-       padding-top: 120;  
+       padding-top: 120px;  
        padding-bottom: 120px;
 }
 .section-pad-portf{
@@ -375,6 +421,8 @@ font-style: normal;
         min-width: 169px;
         height: 56px;
         border: none;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .order-button:hover,
@@ -387,7 +435,7 @@ font-style: normal;
         margin-bottom: 8px;      
 }
 
-.margin-bot-h4{
+.margin-bot-h-4{
         margin-bottom: 72px;
 }
 .container-team{
@@ -404,7 +452,6 @@ font-style: normal;
         padding-left: 16px;
         padding-right: 16px;
         border-top: none;
-        border:1px solid #e7e9fc; 
         margin-bottom: 8px;
 }
 
@@ -417,6 +464,9 @@ font-style: normal;
         padding-right: 24px;
         border: 1px solid #e7e9fc;
         border-radius: 4px;
+       
+
+
 }
 
 .order-button2:hover,
@@ -425,14 +475,10 @@ font-style: normal;
 }
 .wrap-portf{
 flex-wrap: wrap;
-row-gap: 48px;
+
 
 }
-.width{
-        width: calc((100%-3*16px)/3);
 
-}
 .ul-portf{
         gap:24px;      
 }
-  
