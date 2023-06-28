@@ -165,15 +165,14 @@ font-style: normal;
      color: #404BBF;
 
 
-.site-nav .link.current {
+.site-nav.link.current{
         font-family: "Raleway" sans-serif;
         font-size: 18px;
         font-weight: 800;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-align: left;
-        color: var(--mainColor);
-    
+        color: var(--mainColor);  
   }
   
   } 
@@ -331,7 +330,7 @@ font-style: normal;
 .header-container {
         display:flex;
         gap: 40px;
-        border-bottom; 1px solid #e7e9fc;
+        border-bottom: 1px solid #e7e9fc;
 }
 
 .item-li-4{
@@ -375,7 +374,7 @@ font-style: normal;
         display: block;
         min-width: 169px;
         height: 56px;
-        border; none;
+        border: none;
 }
 
 .order-button:hover,
@@ -384,11 +383,11 @@ font-style: normal;
 }
 
 
-.mmargin-bot-h2{   
+.margin-bot-h2{   
         margin-bottom: 8px;      
 }
 
-.mmargin-bot-h4{
+.margin-bot-h4{
         margin-bottom: 72px;
 }
 .container-team{
@@ -400,6 +399,13 @@ font-style: normal;
 
 .img-block{
         display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-top: none;
+        border:1px solid #e7e9fc; 
+        margin-bottom: 8px;
 }
 
 /*-----portfolio----*/
@@ -422,6 +428,11 @@ flex-wrap: wrap;
 row-gap: 48px;
 
 }
+.width{
+        width: calc((100%-3*16px)/3);
 
-
-   
+}
+.ul-portf{
+        gap:24px;      
+}
+  
