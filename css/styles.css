@@ -12,7 +12,7 @@
         --modalBg: #FCFCFC;
 }
 body{
-        font-family: "Roboto" sans-serif; 
+        font-family: "Roboto",sans-serif; 
         color: #434455;
         background-color: #FFFFFF;
         color: var(--textColor);        
@@ -362,20 +362,28 @@ ul{
 
 .nav-menu {   
         display:flex ;
-        gap: 40px;
-        margin:0;
         align-items: center;
       
 }
    
+.menu{
+        display:flex ;
+        gap: 40px;
+        margin:0;
+        align-items: center;
+}
+
+
+
+
+
 
 .header-container {
         display:flex;
-        gap: 40px;
         border-bottom: 1px solid #e7e9fc;
 }
 
-.item-li-4{
+.item-li{
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
         border-top-right-radius: 4px;
@@ -433,11 +441,11 @@ ul{
 }
 
 
-.margin-bot-h2{   
+.margin-bot{   
         margin-bottom: 8px;      
 }
 
-.margin-bot-h-4{
+.margin-bot-h{
         margin-bottom: 72px;
 }
 .container-team{
@@ -459,7 +467,7 @@ ul{
 
 /*-----portfolio----*/
 
-.order-button2 {
+.order-but {
         padding-top: 12px;
         padding-bottom: 12px;
         padding-left: 24px;
@@ -467,17 +475,14 @@ ul{
         border: 1px solid #e7e9fc;
         border-radius: 4px;
        
-
-
 }
 
-.order-button2:hover,
-.order-button2:focus {
+.order-but:hover,
+.order-but:focus {
         border: 1px solid transparent;
 }
 .wrap-portf{
 flex-wrap: wrap;
-
 
 }
 
