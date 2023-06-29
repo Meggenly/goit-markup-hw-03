@@ -404,7 +404,7 @@ ul{
         gap: 24px;
         margin: 0;
         justify-content: center;
-      
+       
         row-gap: 48px;   
 }
 
@@ -496,13 +496,24 @@ flex-wrap: wrap;
         gap:24px; 
         row-gap: 48px;
         column-gap: 24px;
+        margin-right: 24px;
+        margin-bottom: 72px
 
 }
+.ul-portf-last{
+        gap: 24px;
+        row-gap: 48px;
+        column-gap: 24px;
+        margin-right: 0;
+        
+}
+
 .header {
         border-bottom: 1px solid #e7e9fc;
 }
 .portf-ul-div{
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
+        border-top: none;
 
 }
