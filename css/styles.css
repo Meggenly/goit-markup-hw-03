@@ -399,11 +399,12 @@ ul{
 }
 
 
-.ul-menu {
+.ul-menu-portf {
         display: flex;
         gap: 24px;
         margin: 0;
         justify-content: center;
+        row-gap:40px ;
        
       
 }
@@ -500,11 +501,7 @@ flex-wrap: wrap;
         margin-bottom: 72px
 
 }
-.ul-portf-last{
-        gap: 24px;
-        row-gap: 48px;
-        column-gap: 24px;
-        margin-right: 0;
+
         
 }
 
