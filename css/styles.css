@@ -17,6 +17,12 @@ body{
         background-color: #FFFFFF;
         color: var(--textColor);        
 }
+
+img{
+        display: block;
+}
+
+
 h1,
 h2,
 h3,
@@ -179,6 +185,7 @@ ul{
 .site-nav .link:hover,
 .site-nav .link:focus {
      color: #404BBF;
+}
 
 
 .site-nav.link.current{
@@ -191,7 +198,7 @@ ul{
         color: var(--mainColor);  
   }
   
-  } 
+  
      
 /* ---------  main -------- */
 .button {   
@@ -253,22 +260,16 @@ ul{
         letter-spacing: 0.02em;
         color: #2E2F42;
         margin-bottom: 8px;
-        text-align: center;
-
-       
+        text-align: center;     
 }
-
 .appname {
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height:1.5;
         letter-spacing: 0.02em;
-        color: #434455;
-      
+        color: #434455;    
    }  
-   
-  
 .appname-team {
         font-style: normal;
         font-weight: 400;
@@ -276,12 +277,10 @@ ul{
         line-height:1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        text-align: center;
-      
+        text-align: center;    
    }
 .bg-each-team {
         background-color:#FFFFFF ;
-
 }
 
 /*----footer------*/
@@ -386,10 +385,7 @@ ul{
 
 .item-li {
         display: block;
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        border-top-right-radius: 4px;
-        border-bottom-left-radius: 4px;
+        border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -408,9 +404,14 @@ ul{
         gap: 24px;
         margin: 0;
         justify-content: center;
-        margin-bottom: 72px;
-        row-gap: 48px;
-     
+      
+        row-gap: 48px;   
+}
+
+.ul-menu-studio{
+        display: flex;
+        gap: 24px;
+       
 }
 
 .sect-three {
@@ -492,8 +493,16 @@ flex-wrap: wrap;
 }
 
 .ul-portf{
-        gap:24px;      
+        gap:24px; 
+        row-gap: 48px;
+        column-gap: 24px;
+
 }
 .header {
         border-bottom: 1px solid #e7e9fc;
+}
+.portf-ul-div{
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+
 }
