@@ -106,6 +106,7 @@ ul{
         letter-spacing: 0.02em;;
         color: #434455;
         font-style: normal;
+       
 }
 .adres:hover,
 .adres:focus {
@@ -383,7 +384,8 @@ ul{
         border-bottom: 1px solid #e7e9fc;
 }
 
-.item-li{
+.item-li {
+        display: block;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
         border-top-right-radius: 4px;
@@ -405,6 +407,9 @@ ul{
         display: flex;
         gap: 24px;
         margin: 0;
+        justify-content: center;
+        margin-bottom: 72px;
+        row-gap: 48px;
      
 }
 
