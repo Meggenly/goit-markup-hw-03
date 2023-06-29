@@ -373,11 +373,6 @@ ul{
         align-items: center;
 }
 
-
-
-
-
-
 .header-container {
         display:flex;
         border-bottom: 1px solid #e7e9fc;
@@ -494,7 +489,7 @@ flex-wrap: wrap;
 }
 
 .ul-portf{
-        gap:24px; 
+        gap: 24px; 
         row-gap: 48px;
         column-gap: 24px;
         margin-right: 24px;
@@ -502,8 +497,6 @@ flex-wrap: wrap;
 
 }
 
-        
-}
 
 .header {
         border-bottom: 1px solid #e7e9fc;
