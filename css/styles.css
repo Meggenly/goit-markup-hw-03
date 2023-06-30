@@ -36,6 +36,7 @@ p  {
 ul{
         padding: 0;
         margin: 0;
+        
 }
 
 .link {
@@ -305,7 +306,6 @@ ul{
         margin-bottom: 16px;
 }
 
-
 .foot-web {
         color: #4D5AE5;
         text-transform: uppercase;
@@ -343,8 +343,8 @@ ul{
         padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
-
 }
+
 
 .visually-hidden {
         position: absolute;
@@ -357,13 +357,11 @@ ul{
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
-        padding-bottom: 120px;
-}
+      }
 
 .nav-menu {   
         display:flex ;
-        align-items: center;
-      
+        align-items: center;      
 }
    
 .menu{
@@ -383,8 +381,6 @@ ul{
         border-radius: 0px 0px 4px 4px;
 }
 
-
-
 .li-menu-list {
         width: calc((100% - 72px) / 4);
 }
@@ -394,25 +390,15 @@ ul{
 }
 
 
-.ul-menu-portf {
-        display: flex;
-        gap: 24px;
-        margin: 0;
-        justify-content: center;
-        row-gap:40px ;
-       
-      
-}
 
 .ul-menu-studio{
         display: flex;
-        gap: 24px;
-       
+        gap: 24px;      
 }
 
 .sect-three {
         padding-bottom: 120px;
-       
+      
 }
 .padding-for-all {
        padding-top: 120px;  
@@ -436,13 +422,10 @@ ul{
         margin-left: auto;
         margin-right: auto;
 }
-
 .order-button:hover,
 .order-button:focus {    
          border: 1px solid transparent;
 }
-
-
 .margin-bot{   
         margin-bottom: 8px;      
 }
@@ -458,13 +441,8 @@ ul{
 }
 
 .img-block{
-        display: block;
-        padding-top: 32px;
-        padding-bottom: 32px;
-        padding-left: 16px;
-        padding-right: 16px;
         border-top: none;
-        margin-bottom: 8px;
+     
 }
 
 /*-----portfolio----*/
@@ -488,14 +466,21 @@ flex-wrap: wrap;
 
 }
 
-.ul-portf{
-        gap: 24px; 
+.ul-menu-portf {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        margin-bottom: 72px;   
+}
+
+.ul-portf {
+        display: flex;
         row-gap: 48px;
         column-gap: 24px;
-        margin-right: 24px;
-        margin-bottom: 72px
-
+        justify-content: center;
 }
+
+
 
 
 .header {
