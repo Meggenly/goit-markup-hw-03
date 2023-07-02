@@ -113,7 +113,9 @@ ul{
         letter-spacing: 0.02em;;
         color: #434455;
         font-style: normal;
-       
+        padding-top: 24px;
+        padding-bottom: 24px;
+        display: block;     
 }
 .adres:hover,
 .adres:focus {
@@ -304,22 +306,20 @@ ul{
         text-transform: uppercase; 
         display: inline-block; 
         margin-bottom: 16px;
+        padding-top: 0;
 }
 
 .foot-web {
         color: #4D5AE5;
         text-transform: uppercase;
-        padding-top: 24px;
-        padding-bottom: 24px;
-
+        
         }
 .foot-studio {
         color: #F4F4FD;
         text-transform: uppercase;
-        padding-top: 24px;
-        padding-bottom: 24px;
 }
-.section-foot {
+       
+.section-foot{
         background-color:#2E2F42 ;
         padding-top: 100px;
         padding-bottom: 100px;
